@@ -20,7 +20,8 @@ An animated, interactive, and responsive front-end layout created for the Paris 
 
 ## 🌐 Live Demo
 
-[👉 View Project Demo] (https://your-live-site-link.com) <!-- (replace with actual deployed link later) -->
+# 👉 View Project: 
+https://anoopshukla-projectworld.github.io/paris-olympic-2024/
 
 ## 📁 Folder Structure
 paris-olympic-2024/
@@ -28,7 +29,6 @@ paris-olympic-2024/
 ├── style.css
 ├── script.js
 ├── /images
-└── /assets
 
 
 ---
