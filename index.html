@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--  ***************************************************************** */
+        /* *************************Header of the page*********************** */
+        /* ***************************************************************** */ -->
+    <header>
+        <nav class="nav-left">
+            <button id="menu-button">☰</button>
+            <a href="#">Sign Up</a>
+            <a href="#">Schedule</a>
+            <a href="#">Medal Table</a>
+            <a href="#">Play</a>
+        </nav>
+        <nav class="nav-center">
+            <img src="../Images/logo.svg" alt="logo" id="logo">
+        </nav>
+        <nav class="nav-right">
+            <a href="#">Ticketing & Hospitality</a>
+            <a href="#">Shop</a>
+            <a href="#">English</a>
+            <button id="search-button">🔍</button>
+        </nav>
+    </header>
+    <!-- Sidebar of the page -->
+    <div id="sidebar">
+        <button id="sidebar-close-button">✖</button> <!-- This is the additional button -->
+        <a href="#">Sign Up</a>
+        <a href="#">Schedule</a>
+        <a href="#">Medal Table</a>
+        <a href="#">Play</a>
+        <a href="#">Ticketing & Hospitality</a>
+        <a href="#">Shop</a>
+        <a href="#">English</a>
+    </div>
+
+    <main>
+        <!--  ***************************************************************** */
+        /* *************************Slider*********************** */
+        /* ***************************************************************** */ -->
+        <div class="slider">
+            <div class="banner" style="background-image: url('Images/Banner1.avif');">
+                <div class="banner-content">
+                    <h1>Skateboarding Teen Titans Trew, Hiraki, Brown Take Paris by Storm</h1>
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Sign up now</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner" style="background-image: url('Images/Banner2.avif');">
+                <div class="banner-content">
+                    <h1>Live the Olympic dream with our Paris 2024 collection</h1>
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Watch now</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner" style="background-image: url('Images/Banner3.avif');">
+                <div class="banner-content">
+                    <h1>Play Now! Paris 2024 album by Panini</h1>
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Explore Jobs</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="play-btn">▶</button>
+                <div class="dots">
+                    <span class="dot" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+                <p>Next: Live the Olympic dream with our Paris 2024 collection</p>
+            </div>
+        </div>
+
+        <!--  ***************************************************************** */
+        /* *************************Event Medals*********************** */
+        /* ***************************************************************** */ -->
+        <section id="events-medals">
+            <div class="events-medals-container">
+                <div class="events">
+                    <div class="event-details">
+                        <div class="now">• NOW</div>
+                        <div class="event-count">
+                            <span class="count">12</span>
+                            <span class="label">EVENTS</span>
+                        </div>
+                    </div>
+                    <button class="arrow-btn">➔</button>
+                </div>
+                <div class="medals">
+                    <div class="medal-details">
+                        <div class="today">🏅 TODAY</div>
+                        <div class="medal-count">
+                            <span class="count">39</span>
+                            <span class="label">MEDALS</span>
+                        </div>
+                    </div>
+                    <button class="arrow-btn">➔</button>
+                </div>
+            </div>
+            <div class="favorites">
+                <div class="favorites-details">
+                    <div class="label">FAVORITES<br>SCHEDULE</div>
+                    <button class="add-team-btn">➕ Add your team</button>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************medals latest update*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section medals-latestUpdate">
+            <div class="medals-section">
+                <h2>MEDALS</h2>
+                <div class="medals-header">
+                    <div>#</div>
+                    <div>Teams/NOCs</div>
+                    <div>G</div>
+                    <div>S</div>
+                    <div>B</div>
+                    <div>Total</div>
+                </div>
+                <div class="medal-row">
+                    <div>1</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+                            alt="USA Flag">USA</div>
+                    <div>24</div>
+                    <div>31</div>
+                    <div>32</div>
+                    <div>87</div>
+                </div>
+                <div class="medal-row">
+                    <div>2</div>
+                    <div><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+                            alt="China Flag">CHN</div>
+                    <div>23</div>
+                    <div>22</div>
+                    <div>16</div>
+                    <div>81</div>
+                </div>
+                <div class="medal-row">
+                    <div>3</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg"
+                            alt="Australia Flag">AUS</div>
+                    <div>15</div>
+                    <div>12</div>
+                    <div>10</div>
+                    <div>37</div>
+                </div>
+                <div class="medal-row">
+                    <div>4</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+                            alt="France Flag">FRA</div>
+                    <div>13</div>
+                    <div>18</div>
+                    <div>19</div>
+                    <div>48</div>
+                </div>
+                <div class="medal-row">
+                    <div>5</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+                            alt="UK Flag">GBR</div>
+                    <div>12</div>
+                    <div>15</div>
+                    <div>19</div>
+                    <div>46</div>
+                </div>
+                <div class="medal-row">
+                    <div>6</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+                            alt="Korea Flag">KOR</div>
+                    <div>11</div>
+                    <div>8</div>
+                    <div>7</div>
+                    <div>26</div>
+                </div>
+                <div class="medal-row">
+                    <div>7</div>
+                    <div><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
+                            alt="Japan Flag">JPN</div>
+                    <div>8</div>
+                    <div>12</div>
+                    <div>9</div>
+                    <div>29</div>
+                </div>
+                <button class="add-team">+ Add your team</button>
+                <button class="view-all">View all</button>
+            </div>
+            <div class="latest-updates-section">
+                <h2>Latest Updates</h2>
+                <div class="update">
+                    <div class="dot"></div>
+                    <div class="update-content">
+                        <p>Wrestling: Yusneylis Guzman to wrestle for gold after Vinesh Phogat disqualified</p>
+                        <span>3 hours ago</span>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="dot"></div>
+                    <div class="update-content">
+                        <p>Track cycling: Australia win men's team pursuit gold</p>
+                        <span>3 hours ago</span>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="dot"></div>
+                    <div class="update-content">
+                        <p>Skateboarding: Keegan Palmer retains Olympic men's park title</p>
+                        <span>4 hours ago</span>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="dot"></div>
+                    <div class="update-content">
+                        <p>Golf: France's Boutier leads after first round</p>
+                        <span>4 hours ago</span>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="dot"></div>
+                    <div class="update-content">
+                        <p>Weightlifting: Li Fabin retains men's 61kg title</p>
+                        <span>4 hours ago</span>
+                    </div>
+                </div>
+                <button class="discover-more">Discover more</button>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************highlights section************************* */
+        /* ***************************************************************** */ -->
+        <section class="section highlights-section">
+            <h2 class="title">Highlights <a href="#" class="highlights-view-all">View All</a></h2>
+
+            <div class="highlights-slider">
+                <div class="slider-content">
+                    <!-- 1st Group -->
+                    <div class="slide-group">
+                        <div class="slide">
+                            <img src="Images/highlights1.avif" alt="slide 1">
+                            <div class="slide-info">
+                                <span>Weightlifting</span>
+                                <a href="#">
+                                    <p>Sable finishes eleventh, Mirabai misses out on a medal on Day 12 at Paris 2024
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights2.avif" alt="slide 2">
+                            <div class="slide-info">
+                                <span>Volleyball</span>
+                                <a href="#">
+                                    <p>France beat Italy to reach men's volleyball final | Paris 2024 highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights3.avif" alt="slide 3">
+                            <div class="slide-info">
+                                <span>Athletics</span>
+                                <a href="#">
+                                    <p>Day 12 athletics highlights: Sable finishes a respectable 11th in steeplechase,
+                                        Kennedy wins
+                                        gold in women’s pole vault, and more | Paris 2024</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd Group -->
+                    <div class="slide-group">
+                        <div class="slide">
+                            <img src="Images/highlights4.avif" alt="slide 4">
+                            <div class="slide-info">
+                                <span>Basketball</span>
+                                <a href="#">
+                                    <p>USA advances to women’s basketball semi-final with 88-74 win over Nigeria | Paris
+                                        2024
+                                        highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights5.avif" alt="slide 5">
+                            <div class="slide-info">
+                                <span>Chanu Saikhom MIRABAI</span>
+                                <a href="#">
+                                    <p>India’s Mirabai Chanu finishes fourth in women’s weightlifting 49kg event | Paris
+                                        2024
+                                        highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights6.avif" alt="slide 6">
+                            <div class="slide-info">
+                                <span>Volleyball</span>
+                                <a href="">
+                                    <p>Poland beat USA to reach men's volleyball final | Paris 2024 highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd Group -->
+                    <div class="slide-group">
+                        <div class="slide">
+                            <img src="Images/highlights7.avif" alt="slide 7">
+                            <div class="slide-info">
+                                <span>Keegan PALMER</span>
+                                <a href="#">
+                                    <p>Keegan Palmer defends Olympic title with gold in men’s skateboarding park final |
+                                        Paris 2024
+                                        highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights8.avif" alt="slide 8">
+                            <div class="slide-info">
+                                <span>Table Tennis</span>
+                                <a href="#">
+                                    <p>Germany beat India in women’s table tennis team quarter-final | Paris 2024
+                                        highlights
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="Images/highlights9.avif" alt="slide 9">
+                            <div class="slide-info">
+                                <span>Athletics</span>
+                                <a href="#">
+                                    <p>Slow start for India in athletics on Day 11 | Paris 2024 highlights</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controller">
+                <button class="sld prev">&#8592;</button>
+                <div class="pagination">
+                    <span class="current-slide">1</span> / <span class="total-slides">3</span>
+                </div>
+                <button class="sld next">&#8594;</button>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* ***********************Team - India- highlights section************* */
+        /* ***************************************************************** */ -->
+        <section class="section section-highlights">
+            <div class="content-highlights">
+                <div class="text-highlights">
+                    <h3 class="title-highlights">WATCH TEAM INDIA HIGHLIGHTS</h3>
+                    <div class="description-highlight">
+                        <p>
+                            Never miss a moment. Tailor news, results and medal updates on Team India and your
+                            favourite sports with a free Olympic Membership.
+                        </p>
+                    </div>
+
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Explore Jobs</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="image-highlight">
+                    <img src="Images/INDIA-HIGHLIGHT-IMG.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Top Stories*********************** */
+        /* ***************************************************************** */ -->
+        <section class="top-stories-section section">
+            <h2 class="title">Top Stories <a href="#" class="highlights-view-all">View All</a></h2>
+            <div class="top-stories-container">
+                <div class="stories-container">
+                    <div class="large-story">
+                        <div class="large-image-container">
+                            <img src="Images/top-story-img1.avif" alt="Large Story Image">
+                        </div>
+                        <div class="large-content-container">
+                            <a href="#">
+                                <p>One silver, five bronze: India finish Paris 2024 Olympics with six medals</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="medium-story">
+                        <div class="medium-image-container">
+                            <img src="Images/top-story-img2.avif" alt="Medium Story Image">
+                        </div>
+                        <div class="medium-content-container">
+                            <a href="#">
+                                <p>The Paris records: Manu Bhaker's firsts, hockey's 52-year itch and more</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stories-container">
+                    <div class="small-story">
+                        <div class="image-container">
+                            <img src="Images/top-story-img3.avif" alt="Small Story Image 1">
+                        </div>
+                        <div class="content-container">
+                            <a href="#">
+                                <h3>Abhinav Bindra</h3>
+                                <p>‘A privilege and an honour’ - Abhinav Bindra receives Olympic Order</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-story">
+                        <div class="image-container">
+                            <img src="Images/top-story-img4.avif" alt="Small Story Image 2">
+                        </div>
+                        <div class="content-container">
+                            <a href="#">
+                                <h3>Exclusive</h3>
+                                <p>Fan Q&A with Neeraj Chopra</p>
+                                <span>Two-time Olympic medallist Neeraj Chopra shares his experiences at Paris
+                                    2024.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="small-story">
+                        <div class="image-container">
+                            <img src="Images/top-story-img5.avif" alt="Small Story Image 3">
+                        </div>
+                        <div class="content-container">
+                            <a href="#">
+                                <h3>Golf</h3>
+                                <p>Aditi Ashok finishes T29 in golf after late charge on final day</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Enjoy The Game*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section Enjoy-The-Game">
+            <h2 class="title">Enjoy The Game <a href="#" class="highlights-view-all">View All</a></h2>
+            <div class="games-Container">
+                <!-- 1 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame1.png" alt="icon1">
+                    </div>
+                    <span>Retrive you tickets</span>
+                </div>
+                <!-- 2 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame2.png" alt="icon1">
+                    </div>
+                    <span>Questions</span>
+                </div>
+                <!-- 3 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame3.png" alt="icon1">
+                    </div>
+                    <span>Hospitality packages</span>
+                </div>
+                <!-- 4 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame4.png" alt="icon1">
+                    </div>
+                    <span>Schedule</span>
+                </div>
+                <!-- 5 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame5.png" alt="icon1">
+                    </div>
+                    <span>Get ready for the sports</span>
+                </div>
+                <!-- 6 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame6.png" alt="icon1">
+                    </div>
+                    <span>Get an Airbnb</span>
+                </div>
+                <!-- 7 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame7.png" alt="icon1">
+                    </div>
+                    <span>Olympic Shop</span>
+                </div>
+                <!-- 8 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame8.png" alt="icon1">
+                    </div>
+                    <span>Mobile app</span>
+                </div>
+                <!-- 9 -->
+                <div class="games-Item">
+                    <div class="icon-box">
+                        <img src="Images/eGame9.png" alt="icon1">
+                    </div>
+                    <span>Olympic Membership</span>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************About The Gamea Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="about-games-section section">
+            <h2 class="title">About The Games</h2>
+            <div class="about-games-container">
+                <div class="about-game-item-container">
+                    <div class="about-Game-item">
+                        <a href="#" class="aboutGame-item">
+                            <img src="Images/about-game-img1.jfif" alt="Sports" class="about-game-image">
+                            <p class="about-game-title">Sports</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-game-item-container">
+                    <div class="about-Game-item">
+                        <a href="#" class="aboutGame-item">
+                            <img src="Images/about-game-img2.jfif" alt="Venues" class="about-game-image">
+                            <p class="about-game-title">Venues</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-game-item-container">
+                    <div class="about-Game-item">
+                        <a href="#" class="aboutGame-item">
+                            <img src="Images/about-game-img3.jfif" alt="Celebrating the Games" class="about-game-image">
+                            <p class="about-game-title">Celebrating the Games</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-game-item-container">
+                    <div class="about-Game-item">
+                        <a href="#" class="aboutGame-item">
+                            <img src="Images/about-game-img4.jfif" alt="Spectator Information" class="about-game-image">
+                            <p class="about-game-title">Spectator Information</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* ***********************Olympic Reward section************* */
+        /* ***************************************************************** */ -->
+        <section class="section section-highlights">
+            <div class="content-highlights">
+                <div class="text-highlights">
+                    <h3 class="title-highlights">MY OLYMPIC™ REWARDS, DISCOVER THE THRILL: PLAY, EARN, AND OWN OLYMPIC
+                        REWARDS</h3>
+                    <div class="description-highlight">
+                        <p>Join today to take on challenges and earn points to redeem on amazing Paris 2024 rewards.</p>
+                    </div>
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Sign up now</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="image-highlight">
+                    <img src="Images/tower.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Olympic Shop Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section online-shop-section">
+            <h2 class="title">Olympic Shop <a href="#" class="highlights-view-all">See more products</a></h2>
+
+            <div class="online-shop-slider">
+                <div class="shop-slider-container">
+                    <!-- 1st Group -->
+                    <div class="shop-slide-group">
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img1.avif"
+                                alt="The Olympic Collection - Latin Crest T-Shirt - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection - Latin Crest T-Shirt - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img2.avif"
+                                alt="The Olympic Collection Primary Logo Graphic T-Shirt - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection Primary Logo Graphic T-Shirt - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img3.avif" alt="Paris 2024 Olympics Plush Mascot 15cm">
+                            <div class="shop-slide-info">
+                                <a href="#">Paris 2024 Olympics Plush Mascot 15cm</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img4.avif" alt="The Olympic Collection Bobble Beanie - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection Bobble Beanie - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd Group -->
+                    <div class="shop-slide-group">
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img5.avif"
+                                alt="The Olympic Collection - Latin Crest T-Shirt - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection - Latin Crest T-Shirt - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img6.avif"
+                                alt="The Olympic Collection Primary Logo Graphic T-Shirt - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection Primary Logo Graphic T-Shirt - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img7.avif" alt="Paris 2024 Olympics Plush Mascot 15cm">
+                            <div class="shop-slide-info">
+                                <a href="#">Paris 2024 Olympics Plush Mascot 15cm</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-slide">
+                            <img src="Images/shop-item-img8.avif" alt="The Olympic Collection Bobble Beanie - White">
+                            <div class="shop-slide-info">
+                                <a href="#">The Olympic Collection Bobble Beanie - White</a>
+                                <div class="shop-additional-info">
+                                    <span>Shop now</span>
+                                    <button class="shop-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-slider-controller">
+                <button class="shop-sld prev disabled">&#8592;</button>
+                <div class="shop-pagination">
+                    <span class="current-slide">1</span> / <span class="total-slides">2</span>
+                </div>
+
+                <button class="shop-sld next">&#8594;</button>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* ***********************Celebrate the Paralympic Games section************* */
+        /* ***************************************************************** */ -->
+        <section class="section section-highlights">
+            <div class="content-highlights">
+                <div class="text-highlights">
+                    <h3 class="title-highlights">
+                        Celebrate the Paralympic Games with hospitality packages
+                    </h3>
+
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Book now</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="image-highlight">
+                    <img src="Images/Celebrate the Paralympic Games.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Immerse Yourself in the Games Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section Immerse-youself-inGame-section">
+            <!-- <h2 class="title">Immerse Yourself in the game <a href="#" class="highlights-view-all">See more products</a> -->
+            <h2 class="title">Immerse Yourself in the game</h2>
+
+            <div class="Immerse-youself-inGame-Container">
+                <div class="Immerse-inGame-container">
+                    <!-- 1st Group -->
+                    <div class="Immerse-inGame-group">
+                        <div class="Immerse-inGame-slide">
+                            <img src="Images/immers-yourself-img1.avif"
+                                alt="The Olympic Collection - Latin Crest T-Shirt - White">
+                            <div class="Immerse-slide-info">
+                                <a href="#">Vote and win Olympic Merch everyday!</a>
+                                <div class="Immerse-additional-info">
+                                    <span>Vote now</span>
+                                    <button class="vote-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Immerse-inGame-slide">
+                            <img src="Images/immers-yourself-img2.avif"
+                                alt="The Olympic Collection Primary Logo Graphic T-Shirt - White">
+                            <div class="Immerse-slide-info">
+                                <a href="#">Test Your Knowledge</a>
+                                <div class="Immerse-additional-info">
+                                    <span>Vote now</span>
+                                    <button class="vote-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Immerse-inGame-slide">
+                            <img src="Images/immers-yourself-img3.avif" alt="Paris 2024 Olympics Plush Mascot 15cm">
+                            <div class="Immerse-slide-info">
+                                <a href="#">Create your own olympic Digital Album by Panini</a>
+                                <div class="Immerse-additional-info">
+                                    <span>Vote now</span>
+                                    <button class="vote-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Immerse-inGame-slide">
+                            <img src="Images/immers-yourself-img4.avif"
+                                alt="The Olympic Collection Bobble Beanie - White">
+                            <div class="Immerse-slide-info">
+                                <a href="#">Build, compete, win with Olympics™ GO! Paris 2024</a>
+                                <div class="Immerse-additional-info">
+                                    <span>Vote now</span>
+                                    <button class="vote-now-button">&#8594;</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Trivia Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section trivia">
+            <h2 class="title">3,2,1 Ready? Play with our Trivia! <a href="#" class="highlights-view-all">Play now</a>
+            </h2>
+            <div class="trivia-container">
+                <div class="left-side">
+                    <div class="trivia-item">
+                        <img src="Images/triviaplayimg1.jpg" alt="Sport Climbing">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3 class="trivia-title">Sport Climbing</h3>
+                            </div>
+                            <a href="#" class="start-button">Start ➜</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="trivia-item">
+                        <img src="Images/triviaplayimg2.jpg" alt="Swimming">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3 class="trivia-title">Swimming</h3>
+                            </div>
+                            <a href="#" class="start-button">Start ➜</a>
+                        </div>
+                    </div>
+                    <div class="trivia-item">
+                        <img src="Images/triviaplayimg3.jpg" alt="Hockey">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3 class="trivia-title">Hockey</h3>
+                            </div>
+                            <a href="#" class="start-button">Start ➜</a>
+                        </div>
+                    </div>
+                    <div class="trivia-item">
+                        <img src="Images/triviaplayimg4.jpg" alt="Badminton">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3 class="trivia-title">Badminton</h3>
+                            </div>
+                            <a href="#" class="start-button">Start ➜</a>
+                        </div>
+                    </div>
+                    <div class="trivia-item">
+                        <img src="Images/triviaplayimg5.jpg" alt="Athletics">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3 class="trivia-title">Athletics</h3>
+                            </div>
+                            <a href="#" class="start-button">Start ➜</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* ***********************Celebrate the Paralympic Games section************* */
+        /* ***************************************************************** */ -->
+        <section class="section section-highlights">
+            <div class="content-highlights">
+                <div class="text-highlights">
+                    <h3 class="title-highlights">
+                        Celebrate the Paralympic Games with hospitality packages
+                    </h3>
+                    <div class="description-highlight">
+                        <P>Never miss a moment! Enjoy full access to breaking news, live sports, original series, and so
+                            much more.</P>
+                    </div>
+
+                    <div class="Button-Wrapper">
+                        <a href="#" class="app-link">
+                            <span>Download now</span>
+                            <div class="arrow">
+                                <span>→</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div id="official_app" class="image-highlight">
+                    <img src="Images/mobile.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************FAQ Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="section faq-section">
+            <h2 class="title">FAQ</h2>
+
+            <div class="faq-filter">
+                <button class="filter-button active" data-filter="all">All Categories</button>
+                <button class="filter-button" data-filter="paris2024">Paris 2024</button>
+                <button class="filter-button" data-filter="olympicgames">Olympic Games</button>
+            </div>
+
+            <div class="Button-Wrapper">
+                <a href="#" class="app-link">
+                    <span>Questions? Contact us</span>
+                    <div class="arrow">
+                        <span>→</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="faq-item" data-category="paris2024">
+                <div class="faq-question">
+                    How to buy tickets for the Olympic Games Paris 2024?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>Tickets for the <strong>Olympic Games</strong> <strong>Paris 2024</strong> are available for
+                        spectators
+                        around the world only on the official ticketing website. To buy tickets, click 
+                        <a href="https://tickets.paris2024.org/en_en?affiliate=24R" data-tracking-payload="{"
+                            module_instance":"FAQ","module":"P2024 FAQs"}" data-tracking="click">here</a>.
+                    </p>
+                    <p>The <strong>Paris 2024</strong> Hospitality program offers packages that include tickets for
+                        sporting events
+                        combined with exceptional services in the competition venues (boxes, lounges) or in the heart of
+                        the city
+                        (accommodation, transport options, gastronomy, tourist activities, etc.).
+                    </p>
+                    <p>The Paris 2024 Hospitality program is delivered by the official Paris 2024 Hospitality provider,
+                        On Location.</p>
+                    <p>For more information about the Paris 2024 Hospitality & Travel offers,
+                        <a href="https://hospitalitytravelpackages.paris2024.org/discover/?language=en"
+                            data-tracking-payload="{" module_instance":"FAQ","module":"P2024 FAQs"}"
+                            data-tracking="click">click here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="paris2024">
+                <div class="faq-question">
+                    What is the official mascot of the Olympic Games Paris 2024?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>The Olympic Games Paris 2024 mascot is Olympic Phryge. The mascot is based on the traditional
+                        small Phrygian
+                        hats for which they are shaped after.</p>
+                    <p>The name and design were chosen as symbols of freedom and to represent allegorical figures of the
+                        French
+                        republic.</p>
+                    <p>The Olympic Phryge is decked out in blue, white, and red - the colours of France’s famed
+                        tricolour flag - with
+                        the golden Paris 2024 logo emblazoned across its chest.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="paris2024">
+                <div class="faq-question">
+                    When and where are the next Olympic Games?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    The Olympic Games <a href="https://olympics.com/en/paris-2024" data-tracking-payload="{"
+                        module_instance":"FAQ","module":"P2024 FAQs"}" data-tracking="click">
+                        <strong>Paris 2024</strong>
+                    </a> will take place in France from <strong>26 July to 11 August</strong>.
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="olympicgames">
+                <div class="faq-question">
+                    How often are the modern Olympic Games held?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>The summer edition of the Olympic Games is normally held every four years.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="olympicgames">
+                <div class="faq-question">
+                    Where will the 2028 and 2032 Olympic Games be held?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p><a href="https://olympics.com/en/olympic-games/los-angeles-2028" data-tracking-payload="{"
+                            module_instance":"FAQ","module":"P2024 FAQs"}" data-tracking="click">Los Angeles,</a>
+                        USA, will host the next Olympic Games from 14 to 30 July 2028.
+                        <a href="https://olympics.com/en/olympic-games/brisbane-2032" data-tracking-payload="{"
+                            module_instance":"FAQ","module":"P2024 FAQs"}" data-tracking="click">Brisbane</a>,
+                        Australia,
+                        will host the Games in 2032.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="olympicgames">
+                <div class="faq-question">
+                    What is the difference between the Olympic Summer Games and the Olympic Winter Games?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>The summer edition of the Olympic Games is a multi-sport event normally held once every four
+                        years usually in
+                        July or August.</p>
+                    <p>The Olympic Winter Games are also held every four years in the winter months of the host location
+                        and the
+                        multi-sports competitions are practised on snow and ice.</p>
+                    <p>Both Games are organised by the International Olympic Committee.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="olympicgames">
+                <div class="faq-question">
+                    Which cities have hosted the Olympic Summer Games?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <ol>
+                        <li>1896 Athens</li>
+                        <li>1900 Paris</li>
+                        <li>1904 St. Louis</li>
+                        <li>1908 London</li>
+                        <li>1912 Stockholm</li>
+                        <li>1920 Antwerp</li>
+                        <li>1924 Paris</li>
+                        <li>1928 Amsterdam</li>
+                        <li>1932 Los Angeles</li>
+                        <li>1936 Berlin</li>
+                        <li>1948 London</li>
+                        <li>1952 Helsinki</li>
+                        <li>1956 Melbourne</li>
+                        <li>1960 Rome</li>
+                        <li>1964 Tokyo</li>
+                        <li>1968 Mexico City</li>
+                        <li>1972 Montreal</li>
+                        <li>1980 Moscow</li>
+                        <li>1984 Los Angeles</li>
+                        <li>1988 Seoul</li>
+                        <li>1992 Barcelona</li>
+                        <li>1996 Atlanta</li>
+                        <li>2000 Sydney</li>
+                        <li>2004 Athens</li>
+                        <li>2008 Beijing</li>
+                        <li>2012 London</li>
+                        <li>2016 Rio de Janeiro</li>
+                        <li>2020 Tokyo</li>
+                        <li>2024 Paris</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="faq-item" data-category="olympicgames">
+                <div class="faq-question">
+                    What year did the Olympic Games start?
+                    <div class="toggle-container">
+                        <span class="toggle-icon"></span>
+                    </div>
+                </div>
+                <div class="faq-answer">
+                    <p>The inaugural Games took place in <a href="https://olympics.com/en/olympic-games/athens-1896"
+                            data-tracking-payload="{" module_instance":"FAQ","module":"P2024 FAQs"}"
+                            data-tracking="click">1896 in Athens</a>,
+                        Greece.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Next Olympic Games Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="next-olympic-games-section section">
+            <div class="heading-wrapper">
+                <div class="heading-line"></div>
+                <div class="heading-container">
+                    <h2><span>Next Olympic Games</span></h2>
+                </div>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="games-wrapper">
+                <ul class="games-list">
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/z9e9snpyzhd3nopjwkz6"
+                                alt="Milano Cortina 2026">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/hje9p1oyu1uaduc2e3zr"
+                                alt="Los Angeles 2028">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/swh89bpckwbl8gqgmn1o"
+                                alt="Paris 2024">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/kxt0kvl2fqxqttuiyjtx"
+                                alt="Brisbane 2032">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/ohxjt8frdfilqyj6x5j7"
+                                alt="Utah 2034">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--  ***************************************************************** */
+        /* *************************Olympic Websites Section*********************** */
+        /* ***************************************************************** */ -->
+        <section class="olympic-websites-section section">
+            <div class="heading-wrapper">
+                <div class="heading-line"></div>
+                <div class="heading-container">
+                    <h2><span>Olympic Websites</span></h2>
+                </div>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="website-wrapper">
+                <ul class="webs-list">
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/ddofjcqrlxaoi6drxhyg"
+                                alt="Milano Cortina 2026">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="	https://img.olympics.com/images/image/private/t_paris_partner/primary/v7crpq9nfvdolsgslmjh"
+                                alt="Los Angeles 2028">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://img.olympics.com/images/image/private/t_paris_partner/primary/wdja3qeysygvj32b5i50"
+                                alt="Brisbane 2032">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="	https://img.olympics.com/images/image/private/t_paris_partner/primary/wihwko8uvaaupazqgcq3"
+                                alt="Utah 2034">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!--  ***************************************************************** */
+        /* *************************Footer Section*********************** */
+        /* ***************************************************************** */ -->
+    <footer>
+        <section class="footer-container">
+            <div class="footer-wrapper">
+                <div class="footer-items">
+                    <div class="AppLinks-Wrapper">
+                        <div class="footer-logo">
+                            <img src="Images/logo.svg" alt="Logo">
+                        </div>
+
+                        <div class="Button-Wrapper">
+                            <a href="#" class="app-link">
+                                <span>Paralympic Games</span>
+                                <div class="arrow">
+                                    <span>→</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="Separator"></div>
+                        <span class="AppLinks-DownloadText">Download the official App</span>
+                        <div class="download-apps">
+                            <a href="#"><img
+                                    src="https://img.olympics.com/images/image/private/t_app-badges/primary/zjdxd8nczbkn9aeftwfy"
+                                    alt="Google Play"></a>
+                            <a href="#"><img
+                                    src="https://img.olympics.com/images/image/private/t_app-badges/primary/f4orztqs8nvmrlxsc9sv"
+                                    alt="App Store"></a>
+                        </div>
+                    </div>
+                    <div class="Footer-Nav-Wrapper">
+                        <div class="footer-column">
+                            <h4>Olympic Games</h4>
+                            <ul>
+                                <li><a href="#">Schedule & Results</a></li>
+                                <li><a href="#">Medal Table</a></li>
+                                <li><a href="#">Sports</a></li>
+                                <li><a href="#">Venues</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Celebrating the Games</h4>
+                            <ul>
+                                <li><a href="#">Celebrating the Games</a></li>
+                                <li><a href="#">Champions Park</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Spectators</h4>
+                            <ul>
+                                <li><a href="#">Spectator info</a></li>
+                                <li><a href="#">Ticketing</a></li>
+                                <li><a href="#">The Games' Shop</a></li>
+                                <li><a href="#">Questions?</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Olympic Torch Relay</h4>
+                            <ul>
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Route</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="GlobalMenu-SocialMedia">
+                    <div class="GlobalMenu-Wrapper">
+                        <ul>
+                            <li><a href="#">Olympic Channel</a></li>
+                            <li><a href="#">IOC</a></li>
+                            <li><a href="#">Museum</a></li>
+                            <li><a href="#">Olympic Shop</a></li>
+                            <li><a href="#">Olympic Refuge Foundation</a></li>
+                        </ul>
+                    </div>
+                    <div class="SocialMedia-Wrapper">
+                        <div class="SocialMedia-Text">
+                            <span>Follow us on</span>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Legal-Copyright-Wrapper">
+                <div class="Legal-Menu-Wrapper">
+                    <ul>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Cookie Settings</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Service</a></li>
+                        <li><a href="#">Call for tenders</a></li>
+                    </ul>
+                </div>
+                <div class="Copyright-Wrapper">
+                    <p>&copy; Copyright Anoop Shukla 2024. All rights reserved.</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
